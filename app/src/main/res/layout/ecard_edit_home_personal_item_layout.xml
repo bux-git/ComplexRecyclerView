@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:id="@+id/rlt_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/eCard_white"
+                android:paddingBottom="@dimen/ecard_edit_margin_top_bottom"
+                android:paddingTop="@dimen/ecard_edit_margin_top_bottom">
+    <TextView
+        android:id="@+id/tv_fieldname"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/ecard_edit_margin_left_right"
+        android:minWidth="70dp"
+        android:textColor="@color/eCard_edit_textColor"
+        android:textSize="@dimen/ecard_edit_normal_size"
+        tools:text="婚姻状况："/>
+
+
+    <ImageView
+        android:id="@+id/iv_icon"
+        android:layout_width="23dp"
+        android:layout_height="23dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="@dimen/ecard_edit_margin_left_right"
+        tools:src="@mipmap/ic_launcher"/>
+
+    <TextView
+        android:id="@+id/tv_fieldvalue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/ecard_edit_textview_lineSpacing"
+        android:paddingRight="@dimen/ecard_edit_margin_left_right"
+        android:layout_toRightOf="@+id/tv_fieldname"
+        android:textColor="@color/eCard_edit_textColor"
+        android:lineSpacingExtra="@dimen/ecard_edit_textview_lineSpacing"
+        android:textSize="@dimen/ecard_edit_normal_size"
+        tools:text="N/N地球人APP地球人APP地球人APP地球人APP地球人APP地球人APP地球人APP地球人APP地球人APP"/>
+
+
+</RelativeLayout>

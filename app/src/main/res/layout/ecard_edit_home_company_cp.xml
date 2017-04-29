@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:id="@+id/rlt_container"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical"
+              android:paddingTop="@dimen/ecard_edit_margin_top_bottom">
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginBottom="@dimen/ecard_edit_margin_top_bottom"
+                  android:layout_marginLeft="@dimen/ecard_edit_margin_left_right"
+                  android:layout_marginRight="@dimen/ecard_edit_margin_left_right"
+                  android:orientation="horizontal">
+        <TextView
+            android:id="@+id/tv_fieldname1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:textColor="@color/eCard_edit_textColor"
+            android:textSize="@dimen/ecard_edit_normal_size"
+            tools:text="产品名称："/>
+
+        <TextView
+            android:id="@+id/tv_fieldvalue1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/ecard_edit_text_top_bottom"
+            android:layout_marginRight="36dp"
+            android:layout_toRightOf="@+id/tv_fieldname"
+            android:layout_weight="1"
+            android:textColor="@color/eCard_edit_textColor"
+            android:textSize="@dimen/ecard_edit_normal_size"
+            tools:text="地球人APP"/>
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginLeft="@dimen/ecard_edit_margin_left_right"
+                  android:layout_marginRight="@dimen/ecard_edit_margin_left_right"
+                  android:orientation="horizontal">
+        <TextView
+            android:id="@+id/tv_fieldname2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:textColor="@color/eCard_edit_textColor"
+            android:textSize="@dimen/ecard_edit_normal_size"
+            tools:text="产品介绍："/>
+
+        <TextView
+            android:id="@+id/tv_fieldvalue2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/ecard_edit_text_top_bottom"
+            android:layout_toRightOf="@+id/tv_fieldname"
+            android:lineSpacingExtra="@dimen/ecard_edit_textview_lineSpacing"
+            android:layout_weight="1"
+            android:textColor="@color/eCard_edit_textColor"
+            android:textSize="@dimen/ecard_edit_normal_size"
+            tools:text="N/地球人APP地球人APP地球人APP地球人APP地球人APP地球人APP地球人APP地球人APP"/>
+    </LinearLayout>
+</LinearLayout>

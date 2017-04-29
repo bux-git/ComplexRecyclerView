@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rlt_container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingBottom="@dimen/ecard_edit_margin_top_bottom"
+    android:paddingTop="@dimen/ecard_edit_margin_top_bottom">
+    <TextView
+        android:id="@+id/tv_file_name"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:minWidth="70dp"
+        android:layout_marginLeft="@dimen/ecard_edit_margin_left_right"
+        android:textSize="@dimen/ecard_edit_normal_size"
+        tools:text="教育经历教育经历"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/ecard_edit_text_left_right"
+        android:layout_marginRight="@dimen/ecard_edit_margin_left_right"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/tv_field1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="@dimen/ecard_edit_textview_lineSpacing"
+            android:textColor="@color/eCard_edit_textColor9"
+            android:textSize="@dimen/ecard_edit_small_size"
+            tools:text="教育经历教育经历教育经历教育经历教育经历N教育经历教育经历教育经历"/>
+
+        <TextView
+            android:id="@+id/tv_field2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/ecard_edit_text_top_bottom"
+            android:layout_weight="1"
+            android:lineSpacingExtra="@dimen/ecard_edit_textview_lineSpacing"
+            android:textColor="@color/eCard_edit_textColor"
+            android:textSize="@dimen/ecard_edit_normal_size"
+            tools:text="N/教育经历教育经历教育经历教育经历教育经历N教育经历教育经历教育经历"/>
+
+        <TextView
+            android:id="@+id/tv_field3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/ecard_edit_text_top_bottom"
+            android:lineSpacingExtra="@dimen/ecard_edit_textview_lineSpacing"
+            android:textColor="@color/eCard_edit_textColor9"
+            android:textSize="@dimen/ecard_edit_small_size"
+            tools:text="N/教育经历教育经历教育经历教育经历教育经历N教育经历教育经历教育经历"/>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

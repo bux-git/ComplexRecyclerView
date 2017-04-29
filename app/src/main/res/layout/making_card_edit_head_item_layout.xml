@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:id="@+id/llt_container"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical"
+              tools:background="@color/eCard_white">
+    <RelativeLayout android:layout_width="match_parent"
+                    android:layout_height="@dimen/ecard_head_bg_height">
+        <ImageView
+            android:id="@+id/iv_cover"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/ecard_head_bg_height"
+            android:scaleType="centerCrop"
+            tools:src="@drawable/bg_internet_biz_card"/>
+        <TextView
+            android:id="@+id/tv_card_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="@dimen/ecard_edit_margin_top_bottom"
+            android:layout_marginLeft="@dimen/ecard_edit_margin_left_right"
+            android:background="@drawable/white_round_stroke_shape"
+            android:paddingBottom="6dp"
+            android:paddingLeft="12dp"
+            android:paddingRight="12dp"
+            android:paddingTop="6dp"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/ecard_edit_small_size"
+            tools:text="个人名片"/>
+
+        <ImageView
+            android:id="@+id/iv_eye"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="@dimen/ecard_edit_margin_top_bottom"
+            android:layout_marginRight="@dimen/ecard_edit_margin_left_right"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_making_card_edit_eye"/>
+
+
+    </RelativeLayout>
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginBottom="@dimen/ecard_edit_margin_top_bottom"
+                  android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp">
+            <LinearLayout android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:layout_centerInParent="true"
+                          android:layout_marginLeft="@dimen/ecard_edit_margin_left_right"
+                          android:layout_marginRight="100dp"
+                          android:gravity="center_vertical">
+                <ImageView
+                    android:id="@+id/iv_edit_card_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/ecard_edit_text_top_bottom"
+                    android:src="@drawable/ic_making_card_edit_paint"/>
+                <TextView
+                    android:id="@+id/tv_card_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:gravity="center"
+                    android:text="个人名片个人名片个个人名片个人名片个个人名片个人名片个"
+                    android:textColor="@color/blue"
+                    android:textSize="@dimen/ecard_edit_large_size"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+
+
+            <ImageView
+                android:id="@+id/iv_scan_code"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="24dp"
+                android:src="@drawable/ic_mine_scan_code"/>
+
+
+        </RelativeLayout>
+        <LinearLayout
+            android:id="@+id/llt_handle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tv_setting"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawableTop="@drawable/ic_making_card_edit_setting"
+                android:gravity="center"
+                android:text="@string/making_card_edit_setting"
+                android:textSize="@dimen/ecard_edit_normal_size"/>
+
+            <TextView
+                android:id="@+id/tv_share"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawableTop="@drawable/ic_making_card_edit_share"
+                android:gravity="center"
+                android:text="@string/making_card_edit_share"
+                android:textSize="@dimen/ecard_edit_normal_size"/>
+
+            <TextView
+                android:id="@+id/tv_prev"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawableTop="@drawable/ic_making_card_edit_prev"
+                android:gravity="center"
+                android:text="@string/making_card_edit_prev"
+                android:textSize="@dimen/ecard_edit_normal_size"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

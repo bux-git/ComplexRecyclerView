@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">ComplexRecyclerView</string>
+
+    <string name="eCard_edit_personal_title">个人资料</string>
+    <string name="eCard_edit_personal_desc_title">个人介绍</string>
+    <string name="eCard_edit_personal_album_title">个人相片</string>
+    <string name="eCard_edit_personal_video_title">个人视频</string>
+    <string name="eCard_edit_personal_resume_title">个人简历</string>
+    <string name="eCard_edit_company_title">企业资料</string>
+    <string name="eCard_edit_company_desc_title">企业介绍</string>
+    <string name="eCard_edit_company_album_title">企业相片</string>
+    <string name="eCard_edit_company_video_title">企业视频</string>
+    <string name="eCard_edit_company_sample_title">业务案例</string>
+    <string name="eCard_edit_company_zhaopin_title">企业招聘</string>
+    <string name="eCard_edit_company_product_title">企业产品</string>
+
+    <string name="eCard_edit_title_tag_edit">尚未编辑</string>
+    <string name="eCard_edit_title_tag_upload">尚未上传</string>
+    <string name="making_card_edit_setting">设置</string>
+    <string name="making_card_edit_share">分享</string>
+    <string name="making_card_edit_prev">预览</string>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+          xmlns:tools="http://schemas.android.com/tools"
+          android:id="@+id/tv_no_data"
+          android:layout_width="match_parent"
+          android:layout_height="@dimen/ecard_edit_item_text_height"
+          android:gravity="left|center_vertical"
+          android:paddingLeft="@dimen/ecard_edit_margin_left_right"
+          android:paddingRight="@dimen/ecard_edit_margin_left_right"
+          android:textSize="@dimen/ecard_edit_normal_size"
+          tools:text="尚未编辑个人资料">
+
+</TextView>

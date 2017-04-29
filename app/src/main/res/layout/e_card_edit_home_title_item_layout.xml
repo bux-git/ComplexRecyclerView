@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical">
+    <include
+        android:id="@+id/title_driver"
+        layout="@layout/ecard_edit_home_header_driver"></include>
+    <RelativeLayout
+        android:id="@+id/rlt_container"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/ecard_edit_item_text_height">
+
+
+        <ImageView
+            android:id="@+id/iv_left"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/ecard_edit_margin_left_right"
+            tools:src="@drawable/ic_making_card_edit_persnal"/>
+
+        <TextView
+            android:id="@+id/tv_title_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="12dp"
+            android:layout_toRightOf="@id/iv_left"
+            android:textSize="@dimen/ecard_edit_title_size"
+            android:textStyle="bold"
+            tools:text="个人资料"/>
+
+        <ImageView
+            android:id="@+id/iv_right"
+            android:padding="@dimen/ecard_edit_margin_top_bottom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/ecard_edit_margin_left_right"
+            tools:src="@drawable/ic_making_card_edit_paint"/>
+    </RelativeLayout>
+    <include
+        layout="@layout/ecard_edit_home_header_driver"
+             android:layout_height="0.5dp"
+             android:layout_width="match_parent"></include>
+</LinearLayout>

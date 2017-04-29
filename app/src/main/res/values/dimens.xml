@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="ecard_head_bg_height">400dp</dimen>
+    <dimen name="ecard_edit_item_text_height">52dp</dimen>
+    <dimen name="ecard_edit_small_size">12sp</dimen>
+    <dimen name="ecard_edit_title_size">16sp</dimen>
+    <dimen name="ecard_edit_large_size">20sp</dimen>
+    <dimen name="ecard_edit_normal_size">14sp</dimen>
+    <dimen name="ecard_edit_margin_left_right">16dp</dimen>
+    <dimen name="ecard_edit_margin_top_bottom">8dp</dimen>
+    <dimen name="ecard_edit_text_left_right">10dp</dimen>
+    <dimen name="ecard_edit_text_top_bottom">4dp</dimen>
+    <dimen name="ecard_eidit_template_height">120dp</dimen>
+    <dimen name="ecard_edit_textview_lineSpacing">6dp</dimen>
+</resources>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:orientation="vertical">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rl_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </android.support.v7.widget.RecyclerView>
+    <com.dqr.www.complexrecyclerview.widget.SuspensionList
+        android:id="@+id/susList"
+        android:layout_width="100dp"
+        android:layout_height="250dp"
+        android:layout_gravity="right"
+        android:layout_marginTop="120dp"/>
+    <ImageView
+        android:id="@+id/iv_model"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_ecard_model_btn"
+        android:layout_gravity="bottom|left"
+        android:layout_marginBottom="@dimen/ecard_edit_margin_left_right"
+        android:layout_marginLeft="@dimen/ecard_edit_margin_left_right"/>
+
+</FrameLayout>
