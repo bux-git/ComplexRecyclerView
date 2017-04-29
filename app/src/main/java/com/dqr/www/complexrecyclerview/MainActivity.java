@@ -245,23 +245,6 @@ public class MainActivity extends AppCompatActivity implements MulAdapter.OnECar
         addTextImageItem(isModel
                 , "千人会议为梦想助力！"
                 , "http://www.dqr2558.com:8080/uploadFiles/1688/small_a8af0196cd494e0da815abafba3d2cc1.jpg", edit_personal_desc);
-        addTextImageItem(isModel
-                , "人生的第一份工作，人生的一次选择！这一刻值得被永恒 记忆在这里不断成长、不断被历练，成就一个更好的自己，收获幸福在这里不断成长、不断被历练，成就一个更好的自己，收获幸福在这里不断成长、不断被历练，成就一个更好的自己，收获幸福在这里不断成长、不断被历练，成就一个更好的自己，收获幸福在这里不断成长、不断被历练，成就一个更好的自己，收获幸福"
-                , "http://www.dqr2558.com:8080/uploadFiles/1688/small_7cb0ee8ece804eb58898747bf4407d3c.jpg", edit_personal_desc);
-
-        addTextImageItem(isModel
-                , "这是一个有爱、有梦想的大家庭，欢迎你的加入！这是一个有爱、有梦想的大家庭，欢迎你的加入！这是一个有爱、有梦想的大家庭，欢迎你的加入！这是一个有爱、有梦想的大家庭，欢迎你的加入！这是一个有爱、有梦想的大家庭，欢迎你的加入！这是一个有爱、有梦想的大家庭，欢迎你的加入！这是一个有爱、有梦想的大家庭，欢迎你的加入！这是一个有爱、有梦想的大家庭，欢迎你的加入！这是一个有爱、有梦想的大家庭，欢迎你的加入！这是一个有爱、有梦想的大家庭，欢迎你的加入！这是一个有爱、有梦想的大家庭，欢迎你的加入！这是一个有爱、有梦想的大家庭，欢迎你的加入！这是一个有爱、有梦想的大家庭，欢迎你的加入！这是一个有爱、有梦想的大家庭，欢迎你的加入！这是一个有爱、有梦想的大家庭，欢迎你的加入！"
-                , "http://www.dqr2558.com:8080/uploadFiles/1688/small_ea826357175a462ca6a881b53aced5ae.jpg", edit_personal_desc);
-        addTextImageItem(isModel
-                , "人生的第一份工作，人生的一次选择！这一刻值得被永恒 记忆在这里不断成长、不断被历练，成就一个更好的自己，收获幸福在这里不断成长、不断被历练，成就一个更好的自己，收获幸福在这里不断成长、不断被历练，成就一个更好的自己，收获幸福在这里不断成长、不断被历练，成就一个更好的自己，收获幸福在这里不断成长、不断被历练，成就一个更好的自己，收获幸福"
-                , "http://www.dqr2558.com:8080/uploadFiles/1688/small_ae8f720b6ae343699a3ec357cda4e535.jpg", edit_personal_desc);
-        addTextImageItem(isModel
-                , "人生的第一份工作，人生的一次选择！这一刻值得被永恒 记忆在这里不断成长、不断被历练，成就一个更好的自己，收获幸福在这里不断成长、不断被历练，成就一个更好的自己，收获幸福在这里不断成长、不断被历练，成就一个更好的自己，收获幸福在这里不断成长、不断被历练，成就一个更好的自己，收获幸福在这里不断成长、不断被历练，成就一个更好的自己，收获幸福"
-                , "http://www.dqr2558.com:8080/uploadFiles/1688/small_ae8f720b6ae343699a3ec357cda4e535.jpg", edit_personal_desc);
-        addTextImageItem(isModel
-                , "人生的第一份工作，人生的一次选择！这一刻值得被永恒 记忆在这里不断成长、不断被历练，成就一个更好的自己，收获幸福在这里不断成长、不断被历练，成就一个更好的自己，收获幸福在这里不断成长、不断被历练，成就一个更好的自己，收获幸福在这里不断成长、不断被历练，成就一个更好的自己，收获幸福在这里不断成长、不断被历练，成就一个更好的自己，收获幸福"
-                , "http://www.dqr2558.com:8080/uploadFiles/1688/small_ae8f720b6ae343699a3ec357cda4e535.jpg", edit_personal_desc);
-
 
     }
 
@@ -315,33 +298,6 @@ public class MainActivity extends AppCompatActivity implements MulAdapter.OnECar
         //initNoData(1, pTitleDesc.title, isModel);
         addVideoItem(isModel
                 , "http://www.dqr2558.com:8080/uploadFiles/279/small_5e0d0570dbec4fdb8ea2136c83a18d83.jpg"
-                , "http://www.dqr2558.com:8080/uploadFiles/279/5e0d0570dbec4fdb8ea2136c83a18d83.mp4"
-                , "", edit_personal_video);
-        addVideoItem(isModel
-                , "http://www.dqr2558.com:8080/uploadFiles/279/small_5e0d0570dbec4fdb8ea2136c83a18d83.jpg"
-                , "http://www.dqr2558.com:8080/uploadFiles/279/5e0d0570dbec4fdb8ea2136c83a18d83.mp4"
-                , "", edit_personal_video);
-        addVideoItem(isModel
-                , "http://www.dqr2558.com:8080/uploadFiles/279/small_5e0d0570dbec4fdb8ea2136c83a18d83.jpg"
-                , "http://www.dqr2558.com:8080/uploadFiles/279/5e0d0570dbec4fdb8ea2136c83a18d83.mp4"
-                , "", edit_personal_video);
-
-        addVideoItem(isModel
-                , "http://www.dqr2558.com:8080/uploadFiles/279/small_5e0d0570dbec4fdb8ea2136c83a18d83.jpg"
-                , "http://www.dqr2558.com:8080/uploadFiles/279/5e0d0570dbec4fdb8ea2136c83a18d83.mp4"
-                , "", edit_personal_video);
-
-        addVideoItem(isModel
-                , "http://www.dqr2558.com:8080/uploadFiles/279/small_5e0d0570dbec4fdb8ea2136c83a18d83.jpg"
-                , "http://www.dqr2558.com:8080/uploadFiles/279/5e0d0570dbec4fdb8ea2136c83a18d83.mp4"
-                , "", edit_personal_video);
-
-        addVideoItem(isModel
-                , "http://www.dqr2558.com:8080/uploadFiles/279/small_5e0d0570dbec4fdb8ea2136c83a18d83.jpg"
-                , "http://www.dqr2558.com:8080/uploadFiles/279/5e0d0570dbec4fdb8ea2136c83a18d83.mp4"
-                , "", edit_personal_video);
-        addVideoItem(isModel
-                , "http://www.dqr2558.com:8080/uploadFiles/279/small_4d5f09c80d28406387ed344be609de20.jpg"
                 , "http://www.dqr2558.com:8080/uploadFiles/279/5e0d0570dbec4fdb8ea2136c83a18d83.mp4"
                 , "", edit_personal_video);
 
@@ -438,20 +394,6 @@ public class MainActivity extends AppCompatActivity implements MulAdapter.OnECar
                         " 入住地球村幸福一辈子"
                 , "http://www.dqr2558.com:8080/img/201701/279/small_a34089d08d03480d8e2fbc2dd1e586bd.jpg", edit_company_desc);
         addTextImageItem(isModel
-                , "人生的第一份工作，人生的一次选择！这一刻值得被永恒 记忆在这里不断成长、不断被历练，成就一个更好的自己，收获幸福在这里不断成长、不断被历练，成就一个更好的自己，收获幸福在这里不断成长、不断被历练，成就一个更好的自己，收获幸福在这里不断成长、不断被历练，成就一个更好的自己，收获幸福在这里不断成长、不断被历练，成就一个更好的自己，收获幸福"
-                , "http://www.dqr2558.com:8080/img/201701/279/small_383f8aa3694f48e8a93ae9174df34fd1.jpg", edit_company_desc);
-
-        addTextImageItem(isModel
-                , "这是公司的一个规划，一个属于自己的地球人村庄，这里免费的水费，免费的电费，免费的……想了解更多欢迎光临，记住我们地球村的第一任村长是我们的总裁~~易生亮！！\n" +
-                        " 入住地球村幸福一辈子"
-                , "http://www.dqr2558.com:8080/img/201701/279/small_ad16f2ebf013401bafe37c1e53b13ed1.jpg", edit_company_desc);
-        addTextImageItem(isModel
-                , "人生的第一份工作，人生的一次选择！这一刻值得被永恒 记忆在这里不断成长、不断被历练，成就一个更好的自己，收获幸福在这里不断成长、不断被历练，成就一个更好的自己，收获幸福在这里不断成长、不断被历练，成就一个更好的自己，收获幸福在这里不断成长、不断被历练，成就一个更好的自己，收获幸福在这里不断成长、不断被历练，成就一个更好的自己，收获幸福"
-                , "http://www.dqr2558.com:8080/img/201702/279/small_e3925dd3bb224553aab670daf7cddebd.jpg", edit_company_desc);
-        addTextImageItem(isModel
-                , ""
-                , "http://www.dqr2558.com:8080/img/201701/279/small_c72aa60e382242ca8e477b45f11174d4.jpg", edit_company_desc);
-        addTextImageItem(isModel
                 , ""
                 , "http://www.dqr2558.com:8080/img/201701/279/small_08315da0f5e5467fbfdd0f6f4c5d0f06.jpg", edit_company_desc);
     }
@@ -478,29 +420,6 @@ public class MainActivity extends AppCompatActivity implements MulAdapter.OnECar
                 , ""
                 , "http://www.dqr2558.com:8080/img/201702/279/small_4a5aaf513a8e48a9be39aa1ddd8e96e7.jpg", edit_company_product);
 
-        addDetails(isModel, "产品名称:", "地球人APP", -1, edit_company_product);
-        addDetails(isModel, "产品介绍:", "地球人APP地球人APP地球人APP地球人APP地球人APP地球人APP地球人APP地球人APP", -1, edit_company_product);
-        addTextImageItem(isModel
-                , ""
-                , "http://www.dqr2558.com:8080/img/201701/279/small_383f8aa3694f48e8a93ae9174df34fd1.jpg", edit_company_product);
-
-        addDetails(isModel, "产品名称:", "地球人APP", -1, edit_company_product);
-        addDetails(isModel, "产品介绍:", "地球人APP地球人APP地球人APP地球人APP地球人APP地球人APP地球人APP地球人APP", -1, edit_company_product);
-        addTextImageItem(isModel
-                , ""
-                , "http://www.dqr2558.com:8080/img/201701/279/small_5d32c1f2187749788827902d0ba27186.jpg", edit_company_product);
-
-        addDetails(isModel, "产品名称:", "地球人APP", -1, edit_company_product);
-        addDetails(isModel, "产品介绍:", "地球人APP地球人APP地球人APP地球人APP地球人APP地球人APP地球人APP地球人APP", -1, edit_company_product);
-        addTextImageItem(isModel
-                , ""
-                , "http://www.dqr2558.com:8080/img/201702/279/small_e3925dd3bb224553aab670daf7cddebd.jpg", edit_company_product);
-        addTextImageItem(isModel
-                , ""
-                , "http://www.dqr2558.com:8080/img/201701/279/small_c72aa60e382242ca8e477b45f11174d4.jpg", edit_company_product);
-        addTextImageItem(isModel
-                , ""
-                , "http://www.dqr2558.com:8080/img/201701/279/small_08315da0f5e5467fbfdd0f6f4c5d0f06.jpg", edit_company_product);
     }
 
 
@@ -550,22 +469,6 @@ public class MainActivity extends AppCompatActivity implements MulAdapter.OnECar
         //无数据时
         // initNoData(1, R.string.eCard_edit_company_video_title, isModel);
 
-        addVideoItem(isModel
-                , "http://www.dqr2558.com:8080/media/201701/2803/small_3575934cf5454e22b178bc25faf7c0d7.jpg"
-                , "http://www.dqr2558.com:8080/uploadFiles/279/5e0d0570dbec4fdb8ea2136c83a18d83.mp4"
-                , "", edit_company_video);
-        addVideoItem(isModel
-                , "http://www.dqr2558.com:8080/media/201701/2803/small_3575934cf5454e22b178bc25faf7c0d7.jpg"
-                , "http://www.dqr2558.com:8080/uploadFiles/279/5e0d0570dbec4fdb8ea2136c83a18d83.mp4"
-                , "", edit_company_video);
-        addVideoItem(isModel
-                , "http://www.dqr2558.com:8080/media/201701/2803/small_3575934cf5454e22b178bc25faf7c0d7.jpg"
-                , "http://www.dqr2558.com:8080/uploadFiles/279/5e0d0570dbec4fdb8ea2136c83a18d83.mp4"
-                , "", edit_company_video);
-        addVideoItem(isModel
-                , "http://www.dqr2558.com:8080/media/201701/2803/small_3575934cf5454e22b178bc25faf7c0d7.jpg"
-                , "http://www.dqr2558.com:8080/uploadFiles/279/5e0d0570dbec4fdb8ea2136c83a18d83.mp4"
-                , "", edit_company_video);
         addVideoItem(isModel
                 , "http://www.dqr2558.com:8080/media/201701/2803/small_3575934cf5454e22b178bc25faf7c0d7.jpg"
                 , "http://www.dqr2558.com:8080/uploadFiles/279/5e0d0570dbec4fdb8ea2136c83a18d83.mp4"
