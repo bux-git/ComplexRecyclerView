@@ -68,6 +68,7 @@ public class MainActivity extends AppCompatActivity implements MulAdapter.OnECar
 
         Attr.isSelfCard=true;
 
+
         initView();
         initEvent();
         initData();

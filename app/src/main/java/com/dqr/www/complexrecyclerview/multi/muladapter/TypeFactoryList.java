@@ -33,6 +33,7 @@ import com.dqr.www.complexrecyclerview.multi.viewholder.VideoViewHolder;
 
 public class TypeFactoryList implements TypeFactory {
 
+
     // 头部第一项
    private static final int TYPE_HEAD_ITEM = R.layout.making_card_edit_head_item_layout;
     //每一项标题栏
